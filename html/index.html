@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+<script type="module">
+  import { init, dec } from './runnable.js'
+  // init
+  const exports = await init()
+  // time: 2023-12-08 17:21:36, api path: https://api.arona.icu/api/rank/list_top?server=1&season=9
+  const enc = "cPlPzab6YH/I4epDDVDir1JFgZaV1eAOci5ECIC/5u3oWoDTV4roq8u2i914gEvySFQX9kysliVmAHLUf6+F8oOFQHittrlKN26+qPQkdBo7W/Kg97wlHOZWMx2d9bH2NhGvZurV9JwH7T64YNdNOALOOjOQ6cf9gBPnUi89sgIGLQoqsydTFbFQgwWjMgIT"
+  // res
+  console.log(dec(enc));
+</script>
+
+</html>
